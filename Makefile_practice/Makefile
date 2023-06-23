@@ -10,6 +10,8 @@ main.o:main.cpp
 clean:
 	rm -f *.o result
 
+//This looks like a bash script, study little bit more on Makefile targets and flags
+
 # hello:
 # 	echo "Hello world"
 # 	touch myfile1.txt
