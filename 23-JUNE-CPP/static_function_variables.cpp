@@ -28,6 +28,6 @@ int main()
     Employee e;
     e.org="MAPLELABS";
    // e.print_emp();This will throw error because static function accessing local variable
-    e.print_org();
+    e.print_org();  //Also static function can access without objects as well, pls try that scenario as well.
     e.print_org_again();
 }
