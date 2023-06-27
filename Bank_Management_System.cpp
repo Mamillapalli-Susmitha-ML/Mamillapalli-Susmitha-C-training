@@ -77,7 +77,7 @@ class Bank
 int main()
 {
     Bank b1;
-    Bank *b=new Bank[no_customers]();;
+    Bank *b=new Bank[no_customers]();
     int op,index=0;
     long int ac;
     do
