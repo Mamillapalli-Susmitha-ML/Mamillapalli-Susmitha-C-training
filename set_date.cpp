@@ -26,10 +26,10 @@ int main()
     string command = "sudo date --set=@" + to_string(modified_time);
 
     // command.c_str() will return a pointer to a null-terminated character array const char*
-    // passing command.c_str() as the argument to the system(), to execute the command represented by the command string.
+    // passing command.c_str() as the argument to the system(), to execute the command represented by the "command" string.
     int result = system(command.c_str());
 
-    //If system command fails it will return -1
+    //If system() fails it will return -1
     if(result==-1)
     {
         cout<<"Failed to set date and time"<<endl;
